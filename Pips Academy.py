@@ -50,7 +50,7 @@ async def Hello(ctx):
     else:
         await ctx.send(":x:  {}, Vous n'avez pas la permission d'utiliser cette commande.".format(ctx.author.mention))
 
-l
+
 @bot.command(pass_context=True, aliases=['quotes'])
 async def Quotes(ctx):
     await ctx.channel.purge(limit=1)
